@@ -7,7 +7,7 @@ gem 'jekyll'
 gem 'whatsup_github'
 
 group :test do
-  gem 'html-proofer'
+  gem 'html-proofer', '>= 3.19.3'
   gem 'launchy'
   gem 'mdl'
 end
